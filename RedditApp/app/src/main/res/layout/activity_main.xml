@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teij04.redditapp.MainActivity">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="20px"
+        android:gravity="center_vertical" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="368dp"
+        android:layout_height="452dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="59dp">
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>
